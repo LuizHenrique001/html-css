@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        a::after {
+            content: '[link]';
+            color: rgba(0, 0, 0, 0.815);
+            text-decoration: none;
+            font-weight: normal;
+
+        }
+
+        .hostinger {
+            text-decoration: none;
+            color: black;
+            font-weight: 600px;
+        }
+
+        .hostinger:hover {
+            color: aqua;
+        }
+
+        .hostinger:visited {
+            color: rgb(0, 0, 0);
+        }
+
+        .hostinger:active {
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io">Repositório do github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do curso em video</a></li>
+        <li><a href="https://hostinger.gupy.io" class="hostinger" target="_blank">Site da Hostinger</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(194, 194, 173);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.404);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.459);
+            border-radius: 10px 30px;
+
+        }
+
+        footer {
+            background-color: black;
+            margin: 0px;
+            text-align: center;
+            padding: 4px;
+        }
+
+        article {
+            background-color: rgb(126, 156, 167);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: antiquewhite;
+        }
+
+        nav {
+            background-color: aquamarine;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight:  bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        p#baixo {
+            font-weight: 600;
+            color: white;
+            
+        }
+
+        footer > p{
+            margin: 0px;
+            
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        section#caixa1 {
+            background-color: black;
+        }
+
+        section#caixa1 > p {
+            color: white;
+            
+            
+        }
+
+        .botao {
+            color: black;
+            background-color: rgb(0, 234, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            padding: 10px 19px;
+            text-decoration: none;
+            border-radius: 18px 9px;
+        }
+
+        .botao:hover {
+            color: white;
+            background-color: rgb(0, 159, 173);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.465);
+        }
+
+        .botao1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre tecnologia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas rerum totam libero voluptate error culpa. Iure voluptatum debitis provident, itaque possimus quam, eligendi dolorum, nostrum a temporibus voluptates odio consectetur!</p>
+                <aside>
+                    <p>Artigo escrito por Lacoste</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="baixo">Desenvolvido por Lacoste</p>
+    </footer>
+    <section id="caixa1">
+        <p>Opa esse e o teste da caixa</p>
+    </section>
+    <p class="botao1"><a href="#" class="botao">botão</a></p>
+</body>
+</html>

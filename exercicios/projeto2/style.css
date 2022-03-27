@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: rgb(0, 0, 197);
+    --cor2: rgb(0, 0, 131);
+    --cor3: rgb(0, 0, 97);
+    --cor4: rgb(0, 0, 78);
+    --cor5: rgb(0, 0, 0);
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5));
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+    margin-top: 30px;
+}
+
+nav {
+    background-color: rgb(4, 0, 219);
+}
+
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgb(37, 37, 255);
+
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+
+}
+
+
+nav p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login {
+    text-align: right;
+}
+
+.linha {
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    border: 2px solid rgba(38, 0, 251, 0.609);
+    border-radius: 3px;
+    padding: 5px;
+    max-width: 150px;
+}
+
+main {
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.418);
+}
+
+main h2 {
+    color: black;
+    font-size: 20px;
+}
+
+
+main p {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#entrar {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#entrar:hover {
+    background-color: rgb(4, 0, 255);
+    color: white;
+    transition-duration: 0.4s;
+    padding: 8px;
+}
+
+#registrar {
+    text-align: center;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#registrar:hover {
+    background-color: rgb(4, 0, 255);
+    color: white;
+    transition-duration: 0.4s;
+    padding: 8px;
+}

@@ -3,4 +3,4 @@
 
 Aprendendo a usar o repositorio!
 
-<a href="https://luizhenrique001.github.io/html-css/">Executar o exercicio 001</a>
+<a href="https://luizhenrique001.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 001</a>
